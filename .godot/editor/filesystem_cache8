@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1702700267
+icon.svg::CompressedTexture2D::3920857132330866874::1702680234::1702680243::1::::<><>::
+main.gd::GDScript::-1::1702682027::0::1::::<>Node2D<>::
+main.tscn::PackedScene::8416978183024411063::1702685857::0::1::::<><>::res://main.gd
+settings.tscn::PackedScene::878391885193886470::1702685858::0::1::::<><>::res://GadgetsScript/BackButton.gd
+::res://GadgetsScript/::1702683437
+BackButton.gd::GDScript::-1::1702683437::0::1::::<>Button<>::
+::res://worlds/::1702685858
+world_1.gd::GDScript::-1::1702685830::0::1::::<>Node2D<>::
+world_1.tscn::PackedScene::8380315117786326921::1702685858::0::1::::<><>::res://worlds/world_1.gd<>res://GadgetsScript/BackButton.gd

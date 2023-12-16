@@ -1,0 +1,58 @@
+[gd_scene load_steps=2 format=3 uid="uid://dr6invqqtf2k6"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_q4na1"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_q4na1")
+
+[node name="ButtonPlay" type="Button" parent="."]
+offset_left = 417.0
+offset_top = 300.0
+offset_right = 725.0
+offset_bottom = 381.0
+text = "Play"
+
+[node name="ButtonQuit" type="Button" parent="."]
+offset_left = 417.0
+offset_top = 517.0
+offset_right = 725.0
+offset_bottom = 598.0
+text = "Quit"
+
+[node name="ButtonSettings" type="Button" parent="."]
+offset_left = 417.0
+offset_top = 410.0
+offset_right = 725.0
+offset_bottom = 491.0
+text = "Settings"
+
+[node name="Title1" type="Label" parent="."]
+offset_left = 46.0
+offset_top = 11.0
+offset_right = 1129.0
+offset_bottom = 216.0
+theme_override_font_sizes/font_size = 150
+text = "Piano Practice"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Title2" type="Label" parent="."]
+offset_left = 41.0
+offset_top = 110.0
+offset_right = 1124.0
+offset_bottom = 315.0
+theme_override_font_sizes/font_size = 80
+text = " Assistor"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Byline" type="Label" parent="."]
+offset_left = 935.0
+offset_top = 218.0
+offset_right = 1073.0
+offset_bottom = 241.0
+text = "By: Gemini_Bllllue"
+
+[connection signal="pressed" from="ButtonPlay" to="." method="_on_button_play_pressed"]
+[connection signal="pressed" from="ButtonQuit" to="." method="_on_button_quit_pressed"]
+[connection signal="pressed" from="ButtonSettings" to="." method="_on_button_settings_pressed"]
